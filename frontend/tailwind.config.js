@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors :{
+        primary : '#0C0C0C',
+        secondary:'#F5F5F5',
+        1:'#FEFBF6',
+      },
+      fontFamily: {
+        hero: ['Matemasie', 'sans-serif'],
+        text:['Libre Baskerville', 'serif'],
+      },
+    },
   },
   plugins: [],
 }
