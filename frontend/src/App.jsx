@@ -4,14 +4,14 @@ import Hero from "./components/Hero";
 import Chatbot from "./components/Chatbot";
 
 const App = () => {
-    return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<Hero />} />
-                <Route path="/chatbot" element={<Chatbot />} />
-            </Routes>
-        </Router>
-    );
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/chatbot" element={<Chatbot />} />
+      </Routes>
+    </Router>
+  );
 };
-  
-  export default App;
+
+export default App;
