@@ -10,14 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs": "^4.20.0",
-    "@tensorflow/tfjs-node": "3.1.0",
     "cors": "^2.8.5",
-    "csv-parse": "^5.5.6",
-    "express": "^4.19.2",
-    "fuse.js": "^7.0.0",
-    "mongoose": "^8.5.3",
-    "natural": "^8.0.1"
+    "express": "^4.19.2"
   },
   "description": ""
 }
