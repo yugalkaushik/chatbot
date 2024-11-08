@@ -115,37 +115,15 @@ function Chatbot() {
               <div className="absolute inset-y-0 right-0 flex items-center space-x-2 pr-2">
                 <button
                   type="submit"
-                  className="flex items-center bg-blue-900 text-white px-4 py-2 border border-transparent rounded-lg shadow-lg hover:bg-blue-700 transition duration-200 ease-in-out"
+                  className="flex items-center bg-[#51BBFE] text-black px-4 py-1 border border-transparent rounded-lg shadow-lg hover:bg-blue-400 transition duration-200 ease-in-out"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 mr-2"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path d="M2.5 10a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z" />
-                    <path d="M11 9a1 1 0 00-1 1v5a1 1 0 002 0v-5a1 1 0 00-1-1z" />
-                    <path d="M9 10a1 1 0 00-1 1v5a1 1 0 002 0v-5a1 1 0 00-1-1z" />
-                  </svg>
                   Suggest
                 </button>
                 <button
                   type="button"
                   onClick={clearMessages}
-                  className="flex items-center bg-gray-200 text-black px-4 py-2 border border-transparent rounded-lg shadow-lg hover:bg-red-600 transition duration-200 ease-in-out"
+                  className="flex items-center bg-gray-200 text-black px-4 py-1 border border-transparent rounded-lg shadow-lg hover:bg-red-400 transition duration-200 ease-in-out"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 mr-2"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm0 2h12v8H4V6z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
                   Clear
                 </button>
               </div>
